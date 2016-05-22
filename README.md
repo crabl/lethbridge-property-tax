@@ -1,5 +1,5 @@
 # taxes-lethbridge [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> 
+>
 
 ## Installation
 
@@ -10,10 +10,19 @@ $ npm install --save taxes-lethbridge
 ## Usage
 
 ```js
-var taxesLethbridge = require('taxes-lethbridge');
+var lethbridge = require('taxes-lethbridge');
 
-taxesLethbridge('Rainbow');
+let year = 2016;
+let assessedPropertyValue = 230000;
+
+let taxAmount = lethbridge(assessedPropertyValue, year);
 ```
+
+## Sources
+
+[Current Mill Rates (updated May 2016)](http://www.lethbridge.ca/living-here/My-Taxes/Pages/Calculators/Residential.aspx)
+[Historical Mill Rates](http://www.lethbridge.ca/living-here/My-Taxes/Pages/Historic-Mill-Rates.aspx)
+
 ## License
 
 MIT © [crabl]()
