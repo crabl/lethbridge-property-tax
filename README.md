@@ -1,4 +1,4 @@
-# taxes-lethbridge
+# lethbridge-property-tax
 > Lethbridge Historical Property Tax Tables
 
 ## Installation
@@ -10,13 +10,17 @@ $ npm install --save taxes-lethbridge
 ## Usage
 
 ```js
-var lethbridge = require('taxes-lethbridge');
+import LethbridgePropertyTax from 'lethbridge-property-tax';
 
 let year = 2016;
 let assessedPropertyValue = 230000;
 
-let taxAmount = lethbridge(assessedPropertyValue, year);
+let taxAmount = LethbridgePropertyTax(assessedPropertyValue, year);
 ```
+
+## Disclaimer
+
+Don't use this to actually calculate anything. It's probably dead wrong.
 
 ## Sources
 

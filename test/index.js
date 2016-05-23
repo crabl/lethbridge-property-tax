@@ -1,7 +1,7 @@
 import assert from 'assert';
 import lethbridge from '../lib';
 
-describe('taxes-lethbridge', () => {
+describe('lethbridge-property-tax', () => {
   it('calculates correct tax amount for current year', () => {
     assert.equal(lethbridge(230000), 2385.10);
   });
