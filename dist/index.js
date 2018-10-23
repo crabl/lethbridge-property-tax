@@ -11,7 +11,7 @@ var _millRates = require('./millRates');
 
 var _millRates2 = _interopRequireDefault(_millRates);
 
-var currentYear = 2016;
+var currentYear = 2018;
 
 function round(amount) {
   return Math.round(amount * 100) / 100;
