@@ -4,6 +4,10 @@ Object.defineProperty(exports, '__esModule', {
   value: true
 });
 exports['default'] = {
+  2018: [{ name: 'Property Tax', rate: 0.0084761 }, { name: 'Education Tax', rate: 0.0024939 }, { name: 'Green Acres Tax', rate: 0.0001367 }],
+
+  2017: [{ name: 'Property Tax', rate: 0.0080254 }, { name: 'Education Tax', rate: 0.0024103 }, { name: 'Green Acres Tax', rate: 0.0001254 }],
+
   2016: [{ name: 'Property Tax', rate: 0.007827 }, { name: 'Education Tax', rate: 0.002414 }, { name: 'Green Acres Tax', rate: 0.000129 }],
 
   2015: [{ name: 'Property Tax', rate: 0.007614 }, { name: 'Education Tax', rate: 0.002413 }, { name: 'Green Acres Tax', rate: 0.000126 }],

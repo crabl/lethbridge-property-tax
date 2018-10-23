@@ -3,7 +3,7 @@ import lethbridge from '../lib';
 
 describe('lethbridge-property-tax', () => {
   it('calculates correct tax amount for current year', () => {
-    assert.equal(lethbridge(230000), 2385.10);
+    assert.equal(lethbridge(230000), 2554.54);
   });
 
   it('calculates correct tax amount for previous years', () => {
